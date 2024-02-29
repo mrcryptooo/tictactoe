@@ -35,7 +35,7 @@ Users may either specify input values via the command line or provide an input f
 ```bash
 leo run <function_name> <input_1> <input_2> ...
 ```
-See `./run.sh` for an example.
+See `./run.sh` for an example>
 
 
 ### Using an input file.
@@ -47,7 +47,7 @@ leo run <function_name>
 
 ## Executing the Program
 ```bash
-leo execute <function_name> <input_1> <input_2> ...
+leo execute <funion_name> <input_1> <input_2> ...
 ```
 
 ## Playing the Game
@@ -60,11 +60,11 @@ leo run new
 |---|---|---|
 | 0 | 0 | 0 |
 | 0 | 0 | 0 |
-| 0 | 0 | 0 |
+| 0 |  | 0 |
 
 ### 2. Player 1 makes a move
 ```bash
-leo run make_move 1u8 1u8 1u8 "{ r1: { c1: 0u8, c2: 0u8, c3: 0u8 }, r2: { c1: 0u8, c2: 0u8, c3: 0u8 }, r3: { c1: 0u8, c2: 0u8, c3: 0u8 } }"
+leo run make_move 1u8 1u8 1u8 "{ r1: { c1: 0u8, c2: 0u8, c3: 0u8 }, r2: { c1: 0u8, c2: 08, c3: 0u8 }, r3: { c1: 0u8, c2: 0u8, c3: 0u8 } }"
 ```
 |   |   |   |
 |---|---|---|
@@ -74,7 +74,7 @@ leo run make_move 1u8 1u8 1u8 "{ r1: { c1: 0u8, c2: 0u8, c3: 0u8 }, r2: { c1: 0u
 
 ### 3. Player 2 makes a move
 ```bash
-leo run make_move 2u8 2u8 2u8 "{ r1: { c1: 1u8, c2: 0u8, c3: 0u8 }, r2: { c1: 0u8, c2: 0u8, c3: 0u8 }, r3: { c1: 0u8, c2: 0u8, c3: 0u8 } }"
+leo run make_move 2u8 2u8 2u8 "{ r1: { c1: 1u8, c2: 0u8, c3: 0u8 }, r2: { c1: 0u8, c2: 0u8, cc3: 0u8 }, r3: { c1: 0u8, c2: 0u8, c3: 0u8 } }"
 ```
 |   |   |   |
 |---|---|---|
