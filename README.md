@@ -3,13 +3,13 @@ discord :mrcryptoo
 
 [//]: # (<img alt="workshop/tictactoe" width="1412" src="../.resources/tictactoe.png">)
 
-A standard game of Tic-Tac-Toe in Leo.
+A standard game of Tc-Tac-Toe in Leo.
 
 ⭕ ❕ ⭕ ❕ ❌
 
 ➖ ➕ ➖ ➕ ➖
 
-⭕ ❕ ⁣❌ ❕ ⭕
+⭕ ❕ ⁣❌ ❕ 
 
 ➖ ➕ ➖ ➕ ➖
 
@@ -27,7 +27,7 @@ An alternative representation would be to use an array, however, these are not y
 
 ## Running the Program
 
-Leo provides users with a command line interface for compiling and running Leo programs.
+Leo provides user with a command line interface for compiling and running Leo programs.
 Users may either specify input values via the command line or provide an input file in `inputs/`.
 
 ### Providing inputs via the command line.
@@ -74,10 +74,10 @@ leo run make_move 1u8 1u8 1u8 "{ r1: { c1: 0u8, c2: 0u8, c3: 0u8 }, r2: { c1: 0u
 
 ### 3. Player 2 makes a move
 ```bash
-leo run make_move 2u8 2u8 2u8 "{ r1: { c1: 1u8, c2: 0u8, c3: 0u8 }, r2: { c1: 0u8, c2: 0u8, c3: 0u8 }, r3: { c1: 0u8, c2: 0u8, c3: 0u8 } }"
+leo run mak_move 2u8 2u8 2u8 "{ r1: { c1: 1u8, c2: 0u8, c3: 0u8 }, r2: { c1: 0u8, c2: 0u8, c3: 0u8 }, r3: { c1: 0u8, c2: 0u8, c3: 0u8 } }"
 ```
 |   |   |   |
 |---|---|---|
-| 1 | 0 | 0 |
+| 1 | 0 | 1 |
 | 0 | 2 | 0 |
 | 0 | 0 | 0 |
