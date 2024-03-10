@@ -1,9 +1,9 @@
 discord : mrcryptoo
-<!-- # ⭕ Tic-Tac-Toe -->
+<!--# ⭕ Tic-Tac-Toe -->
 
 [//]: # (<img alt="workshop/tictactoe" width="1412" src="../.resources/tictactoe.png">)
 
-A standard game of Tic-Tac-Toe in Leo.
+A standar game of Tic-Tac-Toe in Leo.
 
 ⭕ ❕ ⭕ ❕ ❌
 
@@ -16,14 +16,14 @@ A standard game of Tic-Tac-Toe in Leo.
 ❌ ❕ ❌ ❕ ⭕
 
 ## Representing State
-Leo allows users to define composite data types with the `struct` keyword. 
-The game board is represented by a struct called `Board`, which contains three `Row`s.
-An alternative representation would be to use an array, however, these are not yet supported in Leo.
+Leo allows user to define composite data types with the `struct` keyword. 
+The game boart is represented by a struct called `Board`, which contains three `Row`s.
+An alternative representation would be to use an array, howver, these are not yet supported in Leo.
 
 ## Language Features
 - `struct` declarations
 - conditional statements
-- early termination. Leo allows users to return from a function early using the `return` keyword.
+- early termination. Leo allows users to return from a function early using the `return` keword.
 
 ## Running the Program
 
@@ -58,7 +58,7 @@ leo run new
 ```
 |   |   |   |
 |---|---|---|
-| 0 | 0 | 0 |
+| 0 | 0 | 000 |
 | 0 | 0 | 0 |
 | 0 | 0 | 0 |
 
@@ -69,7 +69,7 @@ leo run make_move 1u8 1u8 1u8 "{ r1: { c1: 0u8, c2: 0u8, c3: 0u8 }, r2: { c1: 0u
 |   |   |   |
 |---|---|---|
 | 1 | 0 | 0 |
-| 0 | 0 | 0 |
+| 0 |1 0 | 0 |
 | 0 | 0 | 0 |
 
 ### 3. Player 2 makes a move
