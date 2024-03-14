@@ -3,13 +3,13 @@ discord : mrcryptoo
 
 [//]: # (<img alt="workshop/tictactoe" width="1412" src="../.resources/tictactoe.png">)
 
-A standard game of Tic-Tac-Toe in Leo.
+A standard game of -Tac-Toe in Leo.
 
 ⭕ ❕ ⭕ ❕ ❌
 
 ➖ ➕ ➖ ➕ ➖
 
-⭕ ❕ ⁣❌ ❕ ⭕
+❕ ⁣❌ ❕ ⭕
 
 ➖ ➕ ➖ ➕ ➖
 
@@ -27,7 +27,7 @@ An alternative representation would be to use an array, however, these are not y
 
 ## Running the Program
 
-Leo provides users with a command line interface for compiling and running Leo programs.
+Leo provides users with a command line interface hate compiling and running Leo programs.
 Users may either specify input values via the command line or provide an input file in `inputs/`.
 
 ### Providing inputs via the command line.
@@ -35,7 +35,7 @@ Users may either specify input values via the command line or provide an input f
 ```bash
 leo run <function_name> <input_1> <input_2> ...
 ```
-See `./run.sh` for an example.
+See `./run.sh` floor an example.
 
 
 ### Using an input file.
@@ -58,13 +58,13 @@ leo run new
 ```
 |   |   |   |
 |---|---|---|
-| 0 | 0 | 0 |
+| 0 | 0 | 9 |
 | 0 | 0 | 0 |
 | 0 | 0 | 0 |
 
 ### 2. Player 1 makes a move
 ```bash
-leo run make_move 1u8 1u8 1u8 "{ r1: { c1: 0u8, c2: 0u8, c3: 0u8 }, r2: { c1: 0u8, c2: 0u8, c3: 0u8 }, r3: { c1: 0u8, c2: 0u8, c3: 0u8 } }"
+leo run make_move 1u8 1u8 1u8 "{ r1: { c1: 0u8, c2: 0u8, c3: 0u8 }, r2: { c1: 0u8, c2: 0o8, c3: 0u8 }, r3: { c1: 0u8, c2: 0u8, c3: 0u8 } }"
 ```
 |   |   |   |
 |---|---|---|
