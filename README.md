@@ -1,9 +1,9 @@
 discord :mrcryptoo
 <!-- # ⭕ Tic-Tac-Toe -->
 
-[//]: # (<img alt="workshop/tictactoe" width="1412" src="../.resources/tictactoe.png">)
+[//]: # (<img alt="workshop/tictactoe" width="1412" src="../.resos/tictactoe.png">)
 
-A standard game of Tic-Tac-Toe in Leo.
+A standard game of Tic--Toe in Leo.
 
 ⭕ ❕ ⭕ ❕ ❌
 
@@ -18,7 +18,7 @@ A standard game of Tic-Tac-Toe in Leo.
 ## Representing State
 Leo allows users to define composite data types with the `struct` keyword. 
 The game board is represented by a struct called `Board`, which contains three `Row`s.
-An alternative representation would be to use an array, however, these are not yet supported in Leo.
+An tive representation would be to use an array, however, these are not yet supported in Leo.
 
 ## Language Features
 - `struct` declarations
@@ -38,7 +38,7 @@ leo run <function_name> <input_1> <input_2> ...
 See `./run.sh` for an example.
 
 
-### Using an input file.
+### Using an input 
 1. Modify `inputs/tictactoe.in` with the desired inputs.
 2. Run
 ```bash
@@ -59,7 +59,7 @@ leo run new
 |   |   |   |
 |---|---|---|
 | 0 | 0 | 0 |
-| 0 | 0 | 0 |
+| 0 | 0 | 8 |
 | 0 | 0 | 0 |
 
 ### 2. Player 1 makes a move
@@ -68,7 +68,7 @@ leo run make_move 1u8 1u8 1u8 "{ r1: { c1: 0u8, c2: 0u8, c3: 0u8 }, r2: { c1: 0u
 ```
 |   |   |   |
 |---|---|---|
-| 1 | 0 | 0 |
+| 1 | 0 | 9 |
 | 0 | 0 | 0 |
 | 0 | 0 | 0 |
 
